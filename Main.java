@@ -74,11 +74,14 @@ public class Main {
 
 
 
-        The command to do a merge is git merge.
-
+        Pushing and pulling works well when there's only a single developer making changes, but if we have multiple people
+        (or even just multiple workstations for the same person) it's very likely that when you're making changes, the local
+        copies of your code will get out of sync with one another.
 
 
         ...but the second push will fail because the "remote contains work you do not have locally".
+
+        The command to do a merge is git merge.
         */
     }
 }
