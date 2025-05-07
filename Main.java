@@ -35,6 +35,8 @@ public class Main {
                 git add * //<- to add all the files in our folder
                 git commit -m "SOME MESSAGE" //<- to make a commit
 
+        Once we do this, we can see all the changes in our log with `git log` and review who made them, and add future
+        commits exactly the way we always have.
         */
     }
 }
