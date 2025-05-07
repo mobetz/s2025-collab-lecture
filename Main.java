@@ -75,6 +75,10 @@ public class Main {
 
 
         The command to do a merge is git merge.
+
+
+
+        ...but the second push will fail because the "remote contains work you do not have locally".
         */
     }
 }
