@@ -91,6 +91,16 @@ public class Main {
         should be visible for all users the next time they pull (but, if they do make changes at the same time,
         they'll need to merge your merge into their changes.)
 
+        Because pulling frequently is important in order to keep appraised of changes that are occurring from
+        other developers, one common strategy for developing new features in code is to make all your changes
+        on a separate branch. You can use the 'git branch' command to manually create a new fork in the timeline
+        just the same way that happens when another computer is making changes.
+
+        I can switch between the different 'forks' in the timeline by using the git checkout command to specify
+        which named branch I want to switch to. This allows you to keep working on long term changes you're not
+        comfortable with pushing up into the communal repository yet, while still having a clean main branch
+        that you can merge from the server without needing to resolve any conflicts.
+
 
         Once you have all the work you want to do on a feature branch completed, you can merge that branch into
         the main branch exactly the same way we merge remote code into our local copy.
