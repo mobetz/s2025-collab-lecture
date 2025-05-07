@@ -81,7 +81,15 @@ public class Main {
 
         ...but the second push will fail because the "remote contains work you do not have locally".
 
-        The command to do a merge is git merge.
+        The command to do a merge is git merge. This will allow us to take our branching histories (the changes
+        we made locally and the other changes that happened on the server) and 'merge' those two timelines back
+        together. This is typically a fairly delicate process, so it's encouraged to use a graphical tool
+        that can help you do the merge visually instead of just relying on the command line. Many IDEs like
+        VSCode have these tools integrated directly into your same editor window you used to write the program.
+
+        Once I complete the merge, I can commit and push like any other change, and at that point the change 
+        should be visible for all users the next time they pull (but, if they do make changes at the same time,
+        they'll need to merge your merge into their changes.)
         */
     }
 }
