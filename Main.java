@@ -73,6 +73,8 @@ public class Main {
         before pushing.
 
 
+
+        The command to do a merge is git merge.
         */
     }
 }
