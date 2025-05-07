@@ -90,6 +90,10 @@ public class Main {
         Once I complete the merge, I can commit and push like any other change, and at that point the change 
         should be visible for all users the next time they pull (but, if they do make changes at the same time,
         they'll need to merge your merge into their changes.)
+
+
+        Once you have all the work you want to do on a feature branch completed, you can merge that branch into
+        the main branch exactly the same way we merge remote code into our local copy.
         */
     }
 }
