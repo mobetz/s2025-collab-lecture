@@ -90,6 +90,16 @@ public class Main {
         Once I complete the merge, I can commit and push like any other change, and at that point the change 
         should be visible for all users the next time they pull (but, if they do make changes at the same time,
         they'll need to merge your merge into their changes.)
+
+        Because pulling frequently is important in order to keep appraised of changes that are occurring from
+        other developers, one common strategy for developing new features in code is to make all your changes
+        on a separate branch. You can use the 'git branch' command to manually create a new fork in the timeline
+        just the same way that happens when another computer is making changes.
+
+        I can switch between the different 'forks' in the timeline by using the git checkout command to specify
+        which named branch I want to switch to. This allows you to keep working on long term changes you're not
+        comfortable with pushing up into the communal repository yet, while still having a clean main branch
+        that you can merge from the server without needing to resolve any conflicts.
         */
     }
 }
